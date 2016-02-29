@@ -128,6 +128,7 @@
 		].join(' '));
 
 		svg.style.webkitUserSelect = 'none';
+		svg.style.userSelect       = 'none';
 		svg.style.position         = 'absolute';
 		svg.style.left             = 0;
 		svg.style.top              = 0;

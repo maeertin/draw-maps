@@ -1,4 +1,4 @@
-# drawMaps
+# draw-maps
 
 Drawable maps using svgs instead of image maps
 
