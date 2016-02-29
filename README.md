@@ -2,7 +2,15 @@
 
 Drawable maps using svgs instead of image maps
 
+## Installation
+
+Bower: ```bower install draw-maps --save```
+
+npm: ```npm install draw-maps```
+
 ## Example
+
+The ```drawMaps()``` constructor accepts two arguments: the item selector and an options object.
 
 ```javascript
 drawMaps('.drawMap', {
