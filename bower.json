@@ -1,0 +1,27 @@
+{
+  "name": "draw-maps",
+  "main": "draw-maps.js",
+  "homepage": "https://github.com/maeertin/draw-maps",
+  "description": "Drawable maps using svgs instead of image maps",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "draw",
+    "imagemap",
+    "svg"
+  ],
+  "authors": [
+    "Martin Barri"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

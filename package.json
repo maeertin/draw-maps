@@ -1,0 +1,24 @@
+{
+  "name": "draw-maps",
+  "version": "1.0.0",
+  "description": "Drawable maps using svgs instead of image maps",
+  "main": "draw-maps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maeertin/draw-maps.git"
+  },
+  "keywords": [
+    "draw",
+    "imagemap",
+    "svg"
+  ],
+  "author": "Martin Barri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maeertin/draw-maps/issues"
+  },
+  "homepage": "https://github.com/maeertin/draw-maps#readme"
+}
