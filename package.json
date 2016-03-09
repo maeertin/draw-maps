@@ -1,6 +1,6 @@
 {
   "name": "draw-maps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drawable maps using svgs instead of image maps",
   "main": "draw-maps.js",
   "scripts": {

@@ -23,6 +23,7 @@ drawMaps('.drawMap', {
 Option | Type | Default Value | Description
 --- | --- | --- | ---
 **wrapImages** | *bool* | true | Whether target should be wrapped
+**svgClass** | *string* | "drawMaps-map" | Class attached to created svgs
 **regretKey** | *string* | "metaKey" | Extended click functionality
 **closeKey** | *string* | "shiftKey" | Extended click functionality
 **resetKey** | *string* | "altKey" | Extended click functionality
