@@ -251,6 +251,8 @@
 	 * Window Resize event handler
 	 */
 	drawMaps.prototype.onResize = function(event) {
+		console.log('event', event)
+
 		console.log('Svg viewboxes have been updated, you might need to reload browser')
 		this.setSvgViewbox();
 	};
@@ -293,7 +295,10 @@
 		if (this.options.wrapImages)
 			this.injectWrapper();
 
-		this.element.addEventListener('load', this.onReady.bind(this))
+		if (!!this.element.naturalWidth)
+			return this.onReady()
+
+		return this.element.addEventListener('load', this.onReady.bind(this))
 	};
 
 	/**
